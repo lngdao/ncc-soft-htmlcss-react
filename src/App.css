@@ -1,0 +1,12 @@
+.sidebar-list > li {
+  color: #aaaaaa;
+  cursor: pointer;
+  height: 44px;
+  padding-left: 16px;
+  line-height: 44px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.sidebar-list > li:hover {
+  color: #fff;
+}
