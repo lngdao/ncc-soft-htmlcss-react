@@ -14,10 +14,12 @@ mockData = mockData.map((item, index) => ({ ...item, img: imgs[index] }));
 
 function PageContent() {
   return (
-    <div className="flex flex-col items-center py-5 px-7 sm:px-10 md:px-12 lg:px-32">
+    <div className="flex flex-col items-center pt-24 sm:pt-7 pb-10 px-7 sm:px-10 md:px-12 lg:px-32">
       <img style={{ width: 310 }} src={logoNCC} alt="" />
       <div className="flex flex-col items-center mt-7 bg-[#EFEFEF] py-[38px] px-20 sm:px-24 md:px-28 lg:px-32">
-        <h2 className="font-bold text-[18px]">Lorem ipsum dolor sit asmet?</h2>
+        <h2 className="font-bold text-[18px] text-center">
+          Lorem ipsum dolor sit asmet?
+        </h2>
         <span className="text-[16px] mt-[18px] text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique
           consequat placerat. Vestibulum auctor pellentesque sem, eu posuere

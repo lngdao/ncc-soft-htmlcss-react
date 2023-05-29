@@ -10,3 +10,15 @@
 .sidebar-list > li:hover {
   color: #fff;
 }
+
+.navbar-list > li {
+  color: #aaaaaa;
+  height: 55px;
+  padding-left: 16px;
+  line-height: 55px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.navbar-list > li:hover {
+  color: #fff;
+}
